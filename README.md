@@ -1,12 +1,12 @@
-# GAME_PROGRAM-EX--7
+## GAME_PROGRAM-EX--7
 
 ## NAME : DINAGARAN JOHNY S
 ## REGISTER NO : 212223220020
 
-# AIM :
+## AIM :
 To implement-chasing when AI see the player.
 
-# ALGORITHM :
+## ALGORITHM :
 STEP-1: Set up the AI character Blueprint and add a Sphere Collision component to the AI character Blueprint and position and scale the Sphere Collision component to represent theAI's detection range.
 
 STEP-2: Create a new AI controller Blueprint and select Create Basic Asset > Blueprint Classfrom that choose the AIController as the parent class.
@@ -23,7 +23,7 @@ STEP-7: Update blackboard values. Set the Blackboard Key to the "PlayerLocation"
 
 STEP-8: Set up the Behavior Tree by Open the Behavior Tree asset in the Behavior Tree editor. Drag and drop a "Blackboard Key Selector" node onto the grap.
 
-# OUTPUT :
+## OUTPUT :
 
 
 <img width="1138" height="581" alt="Screenshot 2025-11-14 002939" src="https://github.com/user-attachments/assets/9d8f3ac1-3da0-4235-839a-efcdbb065b9e" />
@@ -35,7 +35,7 @@ STEP-8: Set up the Behavior Tree by Open the Behavior Tree asset in the Behavior
 <img width="1122" height="426" alt="image" src="https://github.com/user-attachments/assets/d2640d8a-fe74-4f95-bf11-5c770466b3a1" />
 
 
-# RESULT :
+## RESULT :
 
 Thus, the AI concept to the actor for a random movement is implemented.
 
